@@ -1,0 +1,37 @@
+.calendar {
+    width: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-header {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .calendar-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .calendar-day {
+    flex: 0 0 14.28%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .calendar-day.empty {
+    background-color: #fff;
+  }

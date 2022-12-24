@@ -1,0 +1,28 @@
+.inbulidcalender {
+  width: 400px;
+  border: 0px solid gray;
+  align-items: center;
+  margin: 60px;
+}
+.inbulidcalender--grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  border-top: 0.5px solid gray;
+  border-left: 0.5px solid gray;
+}
+.inbulidcalender--grid--span3 {
+  grid-column: span 3;
+}
+.inbulidcalender--grid--button {
+  border: 0px solid gray;
+  border-right: 0.5px solid gray;
+  border-bottom: 0.5px solid gray;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 100%;
+  height: 32px;
+  transition: color 0.15s ease-in-out;
+}
